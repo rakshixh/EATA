@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     private void getResponse(String message) {
         chatsmodalArrayList.add(new Chatsmodal(message,USER_KEY));
         chatAdapter.notifyDataSetChanged();
-        String url = "http://api.brainshop.ai/get?bid=166629&key=p5j26OYuH2X3RR28&uid=[uid]&msg=[msg]"+message;
+        String url = "*****enter your api key*****"+message;
         String BASE_URL = "http://api.brainshop.ai/";
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
