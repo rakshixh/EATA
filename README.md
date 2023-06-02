@@ -1,2 +1,2 @@
-# EATA
-Eata - Chat Bot using API ,Android Application
+# EATA - Android Application
+Eata - Chat Bot using API
